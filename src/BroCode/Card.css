@@ -1,0 +1,33 @@
+
+.my-div .my-img{
+
+    max-width: 10;
+    height: 50;
+    width: 50;
+    align-items: center;
+    
+}
+
+.my-div .my-h1{
+
+    text-align: center;
+}
+
+.my-div .my-p{
+    text-align: center;
+}
+
+.my-div{
+
+    background-color: aqua;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+
