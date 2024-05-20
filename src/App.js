@@ -15,7 +15,23 @@ import Students from './BroCode/Students';
 // List: Array Operations:
 import List from './BroCode/List.jsx'
 
-// Click Event:
+// Click Event: [ PENDING ]
+// OnChange Event: [ PENDING ]
+
+// Timer Program:
+import StopClock from './BroCode/StopClock';
+
+// ColorPicker:
+import Colorpicker from './BroCode/ColorPicker';
+
+// UpdateObjects in the State:
+import UpdateObjects from './BroCode/UpdateObjects';
+
+// UpdateArray in the State:
+import UpdateArray from './BroCode/UpdateArray.jsx';
+
+// UpdateObjectsofList:
+import UpdateObjectsofList from './BroCode/UpdateObjectsofList';
 
 const Fruits = [
   {Id:1,Name:"Apple",Calories:10},
@@ -31,13 +47,11 @@ const Vegetables = [
 
 function App() {
   return (
-    <React.Fragment>
-
-      <List values={Fruits} Categories="Fruits"/>
-      <List values={Vegetables} Categories="Vegetables"/>
-      <List/>
-      
-    </React.Fragment>
+    
+    <>
+    <UpdateObjectsofList/>
+    </>
+    
 
 
   );
